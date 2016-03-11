@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{f5a481d6-46da-4b49-bfd9-085941159722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haarcascades">
+      <UniqueIdentifier>{cbdd18ee-eea7-416c-8488-ffaebd9a3b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc">
+      <UniqueIdentifier>{8646ddd2-a3cd-4a93-b06b-c2f5e83eaecf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\CamTest.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\HAARFaceDetectionToCar.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\CamTrackPoints.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\Tracking.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\TrackingDotOnCircle.cpp">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenCV - Object detection and tracking.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="data\240 - IPU3030RV IP Camera Highway Surveillance.mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\240p - 1min - rush hour - British Highway traffic, congestion..mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\240p - Pedestrians Rescue Woman from underneath Car in SW China.mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\240p - Truck accident caught on police camera Motorway M621 (M62 Crash Leeds West Yorks UK).mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\480p - Truck accident caught on police camera Motorway M621 (M62 Crash Leeds West Yorks UK).mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\720p - 1min - rush hour - British Highway traffic, congestion..mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\720p - Pedestrians Rescue Woman from underneath Car in SW China.mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+    <Media Include="data\720p IPU3030RV IP Camera Highway Surveillance.mp4">
+      <Filter>Source Files\data</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="haarcascades\car_1.xml">
+      <Filter>Source Files\haarcascades</Filter>
+    </Xml>
+    <Xml Include="haarcascades\car_2.xml">
+      <Filter>Source Files\haarcascades</Filter>
+    </Xml>
+    <Xml Include="haarcascades\car_3.xml">
+      <Filter>Source Files\haarcascades</Filter>
+    </Xml>
+    <Xml Include="haarcascades\fullbody.xml">
+      <Filter>Source Files\haarcascades</Filter>
+    </Xml>
+    <Xml Include="haarcascades\pedestrian_1.xml">
+      <Filter>Source Files\haarcascades</Filter>
+    </Xml>
+    <Xml Include="haarcascades\pedestrian_2.xml">
+      <Filter>Source Files\haarcascades</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\video1.avi">
+      <Filter>Source Files\data</Filter>
+    </None>
+    <None Include="data\video2.avi">
+      <Filter>Source Files\data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
